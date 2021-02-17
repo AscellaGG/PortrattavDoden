@@ -52,6 +52,8 @@ public class GameManager : MonoBehaviour
         currentRoom = levelParent.transform.GetChild(0).gameObject;
 
         leftArrow.SetActive(false);
+
+        Debug.Log("test");
     }
 
     // Update is called once per frame
