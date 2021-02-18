@@ -25,11 +25,13 @@ public class GameManager : MonoBehaviour
 
     public GameObject larsLerin;
 
-    public GameObject kruka;
+    public GameObject larsInHiding;
 
-    public Sprite larsIKruka;
+    //public GameObject kruka;
 
-    public Collider2D larsIKrukaCollider;
+    //public Sprite larsIKruka;
+
+    //public Collider2D larsIKrukaCollider;
 
     public List<string> possiblePasswords;
 
@@ -45,7 +47,7 @@ public class GameManager : MonoBehaviour
 
         isLarsHiding = false;
 
-        larsIKrukaCollider.enabled = false;
+        larsInHiding.SetActive(false);
 
         roomNr = 0;
 
@@ -77,9 +79,10 @@ public class GameManager : MonoBehaviour
         if (!isLarsHiding)
         {
             Destroy(larsLerin);
-            kruka.GetComponent<SpriteRenderer>().sprite = larsIKruka;
+            //kruka.GetComponent<SpriteRenderer>().sprite = larsIKruka;
             isLarsHiding = true;
-            larsIKrukaCollider.enabled = true;
+            larsInHiding.SetActive(true);
+            //larsIKrukaCollider.enabled = true;
         }
     }
 

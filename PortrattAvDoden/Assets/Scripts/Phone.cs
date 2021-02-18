@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Phone : MonoBehaviour
+public class Phone : MonoBehaviour, IInteractable
 {
     public GameManager gameManager;
 
@@ -41,7 +41,7 @@ public class Phone : MonoBehaviour
 
     private void OnMouseDown()
     {
-        if(interactScript.largerImage && interactScript.latestClickedObject.name == this.name)
+        /*if(interactScript.largerImage && interactScript.zoomObject.name == this.name)
         {
             Debug.Log("turn phone around");
             spriteRenderer.sprite = frontOfPhone;
@@ -63,11 +63,39 @@ public class Phone : MonoBehaviour
             dialogueTrigger.TriggerDialogue();
 
 
-        }
+        }*/
     }
 
-    void UnlockPhone()
+    public void Interact()
     {
+        if (this.GetComponent<DialogueTrigger>() != null)
+        {
+            this.GetComponent<DialogueTrigger>().TriggerDialogue();
+        }
 
+        if(!interactScript.largerImage)
+        {
+            interactScript.Zoom(5);
+        }
+        /*else if(interactScript.largerImage && frontFacing)
+        {
+            //open options for password or smth
+            dialogueTrigger.dialogue.hasOptions = true;
+
+            //change text on buttons to guesses?
+            //dialogueManager.optionButtons[0].GetComponent<Text>().text = "Lås upp mobilen";
+            dialogueManager.dialogueOptions.optionButtons[0].GetComponent<Text>().text = "Lås upp mobilen";
+            dialogueManager.dialogueOptions.GuessPhonePassword();
+
+            //dialogueManager.ShowPasswordGuess();    
+            dialogueTrigger.TriggerDialogue();
+        }*/
+        else if (interactScript.largerImage)
+        {
+            Debug.Log("turn phone around");
+            spriteRenderer.sprite = frontOfPhone;
+            transform.rotation = new Quaternion(0, 0, 0, 0);
+            frontFacing = true;
+        }
     }
 }
