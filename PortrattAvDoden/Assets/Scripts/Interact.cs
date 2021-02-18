@@ -68,6 +68,16 @@ public class Interact : MonoBehaviour
                     largerImage = false;
                 }*/
             }
+            else if(hit.collider == null)
+            {
+                //reset object to original position
+                zoomObject.transform.position = startingPosition;
+                zoomObject.transform.localScale = startingScale;
+                zoomObject.GetComponent<SpriteRenderer>().sortingOrder = startOrderinLayer;
+
+                largerImage = false;
+                Destroy(greyScreen);
+            }
         }
     }
 
