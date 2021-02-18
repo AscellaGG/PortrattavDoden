@@ -54,35 +54,13 @@ public class DialogueManager : MonoBehaviour
         {
             optionButtons[i].gameObject.SetActive(false);
         }
+
         for(int i = 0; i < dialogue.options.Length; i++)
         {
             optionButtons[i].gameObject.SetActive(true);
             optionButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.options[i].optionText;
+            optionButtons[i].onClick.AddListener(delegate { StartNextDialogue(dialogue.options[i-1]); });
         }
-
-        /*if(dialogue.hasOptions)
-        {
-            foreach(string option in dialogue.options)
-            {
-                options.Enqueue(option);
-            }
-
-            dialogueOptions.EnableDialogueOptions(dialogue.options.Length);
-
-            for (int i = 0; i < dialogueOptions.optionButtons.Length; i++)
-            {
-                if (dialogueOptions.optionButtons[i].IsActive())
-                {
-                    dialogueOptions.optionButtons[i].GetComponent<Text>().text = options.Dequeue();
-                }
-            }
-
-            dialogueOptions.test();
-        }*/
-        /*else if(!dialogue.hasOptions)
-        {
-            dialogueOptions.DisableDialogueOptions();
-        }*/
 
         /*Debug.Log("Starting conversation with " + dialogue.name);
 
@@ -96,21 +74,10 @@ public class DialogueManager : MonoBehaviour
         }*/
 
         sentences.Clear();
-        passwordGuess.Clear();
 
         foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
-        }
-
-        /*foreach(string sentence in dialogue.passwordGuessDialogue)
-        {
-            passwordGuess.Enqueue(sentence);
-        }*/
-
-        if(this.GetComponent<GameManager>() != null)
-        {
-            //gameManager.possiblePasswords.Add(dialogue.passwordGuess);
         }
 
         DisplayNextSentence();
@@ -130,20 +97,16 @@ public class DialogueManager : MonoBehaviour
         StartCoroutine(TypeSentence(sentence));
     }
 
-    public void ShowPasswordGuess()
+    void StartNextDialogue(Response option)
     {
-        if (passwordGuess.Count == 0)
-        {
-            EndDialogue();
-            return;
-        }
-
-        string sentence = passwordGuess.Dequeue();
-
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
+        Debug.Log("starting next dialogue");
+        StartDialogue(option.secondaryDialogue);
     }
 
+    void TestFunction(string stringy)
+    {
+        Debug.Log(stringy);
+    }
 
     IEnumerator TypeSentence (string sentence)
     {
