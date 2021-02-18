@@ -2793,9 +2793,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5d9ff69d4ecbab41bcd526f0a2d84b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startingPosition: {x: 0, y: 0, z: 0}
+  startingScale: {x: 0, y: 0, z: 0}
+  startOrderinLayer: 0
   greyScreenPrefab: {fileID: 561036075683901985, guid: 1b02632794cb5f44fb733913b18efb33, type: 3}
   largerImage: 0
   latestClickedObject: {fileID: 0}
+  zoomObject: {fileID: 0}
 --- !u!4 &1477633733
 Transform:
   m_ObjectHideFlags: 0
