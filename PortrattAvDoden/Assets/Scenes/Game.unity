@@ -1724,6 +1724,7 @@ GameObject:
   - component: {fileID: 735599318}
   - component: {fileID: 735599320}
   - component: {fileID: 735599319}
+  - component: {fileID: 735599321}
   m_Layer: 0
   m_Name: affisch
   m_TagString: Interactable
@@ -1822,6 +1823,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &735599321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735599317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a2c7958f9dc78a4f85f6a35ef917af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &768313589
 GameObject:
   m_ObjectHideFlags: 0
@@ -3288,6 +3301,7 @@ GameObject:
   - component: {fileID: 1547005852}
   - component: {fileID: 1547005854}
   - component: {fileID: 1547005853}
+  - component: {fileID: 1547005855}
   m_Layer: 0
   m_Name: Catti
   m_TagString: Interactable
@@ -3409,6 +3423,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.2917895, y: 9.550556}
   m_EdgeRadius: 0
+--- !u!114 &1547005855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1547005850}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ac05416aac47e04ca7927b63e017f2d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1563065723
 GameObject:
   m_ObjectHideFlags: 0
@@ -3771,6 +3797,7 @@ GameObject:
   - component: {fileID: 1813526679}
   - component: {fileID: 1813526680}
   - component: {fileID: 1813526678}
+  - component: {fileID: 1813526681}
   m_Layer: 0
   m_Name: Dummy_1
   m_TagString: Untagged
@@ -3906,6 +3933,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameManager: {fileID: 1477633734}
+--- !u!114 &1813526681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1813526675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee932f704330b6d4e98625fc285fa6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1851278609
 GameObject:
   m_ObjectHideFlags: 0
@@ -3996,6 +4035,7 @@ GameObject:
   - component: {fileID: 2128509986}
   - component: {fileID: 2128509985}
   - component: {fileID: 2128509987}
+  - component: {fileID: 2128509988}
   m_Layer: 0
   m_Name: LarsLerin
   m_TagString: Untagged
@@ -4116,6 +4156,18 @@ MonoBehaviour:
     sentences:
     - 'Hej, jag heter Lars. '
     passwordGuessDialogue: []
+--- !u!114 &2128509988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128509983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee932f704330b6d4e98625fc285fa6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2135936059
 GameObject:
   m_ObjectHideFlags: 0
@@ -4128,6 +4180,7 @@ GameObject:
   - component: {fileID: 2135936061}
   - component: {fileID: 2135936063}
   - component: {fileID: 2135936062}
+  - component: {fileID: 2135936064}
   m_Layer: 0
   m_Name: Dummy_2
   m_TagString: Untagged
@@ -4250,6 +4303,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.1370893, y: 18.35079}
   m_EdgeRadius: 0
+--- !u!114 &2135936064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135936059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee932f704330b6d4e98625fc285fa6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2287491064963628861
 PrefabInstance:
   m_ObjectHideFlags: 0

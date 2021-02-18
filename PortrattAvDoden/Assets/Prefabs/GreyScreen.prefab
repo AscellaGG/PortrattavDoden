@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8768327713167842871}
   - component: {fileID: 8577327389306940778}
   - component: {fileID: 5549118389919600662}
+  - component: {fileID: 4565282493744087284}
   m_Layer: 0
   m_Name: GreyScreen
   m_TagString: Untagged
@@ -109,3 +110,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!114 &4565282493744087284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 561036075683901985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e150e0253f2633b4891add007457ed56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

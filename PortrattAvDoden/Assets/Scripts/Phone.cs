@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Phone : MonoBehaviour
+public class Phone : MonoBehaviour, IInteractable
 {
     public GameManager gameManager;
 
@@ -39,7 +39,7 @@ public class Phone : MonoBehaviour
         //if we have a password guess, allow us to try it
     }
 
-    private void OnMouseDown()
+    /*private void OnMouseDown()
     {
         if(interactScript.largerImage && interactScript.latestClickedObject.name == this.name)
         {
@@ -64,10 +64,23 @@ public class Phone : MonoBehaviour
 
 
         }
-    }
+    }*/
 
-    void UnlockPhone()
+    public void Interact()
     {
+        if (this.GetComponent<DialogueTrigger>() != null)
+        {
+            this.GetComponent<DialogueTrigger>().TriggerDialogue();
+        }
+        
+        if (interactScript.largerImage && interactScript.latestClickedObject.name == this.name)
+        {
+            Debug.Log("turn phone around");
+            spriteRenderer.sprite = frontOfPhone;
+            transform.rotation = new Quaternion(0, 0, 0, 0);
+            frontFacing = true;
+        }
 
+        interactScript.Zoom(5);
     }
 }
