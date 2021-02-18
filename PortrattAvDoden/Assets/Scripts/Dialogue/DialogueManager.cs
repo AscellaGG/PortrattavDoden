@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -15,12 +16,14 @@ public class DialogueManager : MonoBehaviour
 
     public Queue<string> options;
 
-    public Text nameText;
-    public Text dialogueText;
+    public TMP_Text nameText;
+    public TMP_Text dialogueText;
 
     public GameObject dialogueBox;
 
     public bool isDialogueActive;
+
+    public Button[] optionButtons = new Button[3];
 
     // Start is called before the first frame update
     void Start()
@@ -47,7 +50,17 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueActive = true;
 
-        if(dialogue.hasOptions)
+        for(int i = 0; i < optionButtons.Length; i++)
+        {
+            optionButtons[i].gameObject.SetActive(false);
+        }
+        for(int i = 0; i < dialogue.options.Length; i++)
+        {
+            optionButtons[i].gameObject.SetActive(true);
+            optionButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.options[i].optionText;
+        }
+
+        /*if(dialogue.hasOptions)
         {
             foreach(string option in dialogue.options)
             {
@@ -65,13 +78,13 @@ public class DialogueManager : MonoBehaviour
             }
 
             dialogueOptions.test();
-        }
+        }*/
         /*else if(!dialogue.hasOptions)
         {
             dialogueOptions.DisableDialogueOptions();
         }*/
 
-        Debug.Log("Starting conversation with " + dialogue.name);
+        /*Debug.Log("Starting conversation with " + dialogue.name);
 
         if(dialogue.hasName)
         {
@@ -80,7 +93,7 @@ public class DialogueManager : MonoBehaviour
         else
         {
             nameText.text = "";
-        }
+        }*/
 
         sentences.Clear();
         passwordGuess.Clear();
@@ -90,22 +103,17 @@ public class DialogueManager : MonoBehaviour
             sentences.Enqueue(sentence);
         }
 
-        foreach(string sentence in dialogue.passwordGuessDialogue)
+        /*foreach(string sentence in dialogue.passwordGuessDialogue)
         {
             passwordGuess.Enqueue(sentence);
-        }
+        }*/
 
         if(this.GetComponent<GameManager>() != null)
         {
-            gameManager.possiblePasswords.Add(dialogue.passwordGuess);
+            //gameManager.possiblePasswords.Add(dialogue.passwordGuess);
         }
 
         DisplayNextSentence();
-    }
-
-    void GetNextOption()
-    {
-
     }
 
     public void DisplayNextSentence()

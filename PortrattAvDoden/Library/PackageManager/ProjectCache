@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637491480180809515
-    m_Hash: 3748992879
+      ticks: 637492638191442104
+    m_Hash: 3647941993
   m_LockFileStatus:
     m_FilePath: "C:/Users/otili/Documents/GameProject_1Line/_Portr\xE4tt av D\xF6den/PortrattAvDoden/Packages/packages-lock.json"
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637492463299747449
-    m_Hash: 3228591515
+      ticks: 637492638197616312
+    m_Hash: 4030255288
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -766,13 +766,13 @@ m_PackageAssets:
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
         revision: abb44f053e9a41d2e00e149e32a19bcec76e98b4
         path: 
-    - packageId: com.unity.ide.visualstudio@2.0.5
+    - packageId: com.unity.ide.visualstudio@2.0.7
       testable: 0
       isDirectDependency: 1
-      version: 2.0.5
+      version: 2.0.7
       source: 1
       resolvedPath: "C:\\Users\\otili\\Documents\\GameProject_1Line\\_Portr\xE4tt
-        av D\xF6den\\PortrattAvDoden\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.5"
+        av D\xF6den\\PortrattAvDoden\\Library\\PackageCache\\com.unity.ide.visualstudio@2.0.7"
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -815,8 +815,18 @@ m_PackageAssets:
         - 2.0.5
         - 2.0.7
         verified: 2.0.7
-      dependencies: []
-      resolvedDependencies: []
+      dependencies:
+      - name: com.unity.test-framework
+        version: 1.1.9
+      resolvedDependencies:
+      - name: com.unity.test-framework
+        version: 1.1.20
+      - name: com.unity.ext.nunit
+        version: 1.0.6
+      - name: com.unity.modules.imgui
+        version: 1.0.0
+      - name: com.unity.modules.jsonserialize
+        version: 1.0.0
       keywords: []
       registry:
         id: main
@@ -830,13 +840,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637400980850000000
+      datePublishedTicks: 637486638490000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-        revision: 83ca94e82bb6da515dc57e0d860b6b2224f56991
+        revision: dec282022c7a95fada560c36f53da9dd155a142c
         path: 
     - packageId: com.unity.ide.vscode@1.2.3
       testable: 0

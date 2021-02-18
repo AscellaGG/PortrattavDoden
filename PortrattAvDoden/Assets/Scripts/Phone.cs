@@ -30,7 +30,7 @@ public class Phone : MonoBehaviour, IInteractable
 
         dialogueTrigger = this.GetComponent<DialogueTrigger>();
 
-        dialogueTrigger.dialogue.hasOptions = false;
+        //dialogueTrigger.dialogue.hasOptions = false;
     }
 
     // Update is called once per frame
