@@ -83,18 +83,18 @@ public class Interact : MonoBehaviour
 
     public void Zoom(int scaleConstant)
     {
-        startingPosition = latestClickedObject.transform.position;
-        startingScale = latestClickedObject.transform.localScale;
-        startOrderinLayer = latestClickedObject.GetComponent<SpriteRenderer>().sortingOrder;
+        startingPosition = zoomObject.transform.position;
+        startingScale = zoomObject.transform.localScale;
+        startOrderinLayer = zoomObject.GetComponent<SpriteRenderer>().sortingOrder;
 
         //make object larger
         largerImage = true;
 
         greyScreen = Instantiate(greyScreenPrefab);
 
-        latestClickedObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
-        latestClickedObject.transform.position = new Vector3(0, 0, 0);
+        zoomObject.GetComponent<SpriteRenderer>().sortingOrder = 2;
+        zoomObject.transform.position = new Vector3(0, 0, 0);
 
-        latestClickedObject.transform.localScale = new Vector3(startingScale.x * scaleConstant, startingScale.y * scaleConstant, 0);
+        zoomObject.transform.localScale = new Vector3(startingScale.x * scaleConstant, startingScale.y * scaleConstant, 0);
     }
 }

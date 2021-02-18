@@ -11,9 +11,9 @@ public class GreyScreen : MonoBehaviour, IInteractable
         interact = FindObjectOfType<Interact>();
         if(interact.largerImage)
         {
-            interact.zoomObject.transform.position = interact.startingPosition;
-            interact.zoomObject.transform.localScale = interact.startingScale;
-            interact.zoomObject.GetComponent<SpriteRenderer>().sortingOrder = interact.startOrderinLayer;
+            interact.latestClickedObject.transform.position = interact.startingPosition;
+            interact.latestClickedObject.transform.localScale = interact.startingScale;
+            interact.latestClickedObject.GetComponent<SpriteRenderer>().sortingOrder = interact.startOrderinLayer;
 
             interact.largerImage = false;
             Destroy(this.gameObject);
