@@ -21,16 +21,18 @@ public class Phone : MonoBehaviour, IInteractable
 
     public DialogueManager dialogueManager;
 
+    public GameObject phoneButton;
+
     // Start is called before the first frame update
     void Start()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        /*spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
         frontFacing = false;
 
         dialogueTrigger = this.GetComponent<DialogueTrigger>();
 
-        dialogueTrigger.dialogue.hasOptions = false;
+        dialogueTrigger.dialogue.hasOptions = false;*/
     }
 
     // Update is called once per frame
@@ -68,7 +70,11 @@ public class Phone : MonoBehaviour, IInteractable
 
     public void Interact()
     {
-        if (this.GetComponent<DialogueTrigger>() != null)
+        FindObjectOfType<Inventory>().AddToInventory(phoneButton);
+
+        Destroy(this.gameObject);
+
+        /*if (this.GetComponent<DialogueTrigger>() != null)
         {
             this.GetComponent<DialogueTrigger>().TriggerDialogue();
         }
@@ -77,7 +83,14 @@ public class Phone : MonoBehaviour, IInteractable
         {
             interactScript.Zoom(5);
         }
-        /*else if(interactScript.largerImage && frontFacing)
+        else if (interactScript.largerImage)
+        {
+            Debug.Log("turn phone around");
+            spriteRenderer.sprite = frontOfPhone;
+            transform.rotation = new Quaternion(0, 0, 0, 0);
+            frontFacing = true;
+        }
+        else if(interactScript.largerImage && frontFacing)
         {
             //open options for password or smth
             dialogueTrigger.dialogue.hasOptions = true;
@@ -90,12 +103,5 @@ public class Phone : MonoBehaviour, IInteractable
             //dialogueManager.ShowPasswordGuess();    
             dialogueTrigger.TriggerDialogue();
         }*/
-        else if (interactScript.largerImage)
-        {
-            Debug.Log("turn phone around");
-            spriteRenderer.sprite = frontOfPhone;
-            transform.rotation = new Quaternion(0, 0, 0, 0);
-            frontFacing = true;
-        }
     }
 }
