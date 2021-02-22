@@ -57,7 +57,7 @@ public class DialogueOptions : MonoBehaviour
         if(stringy == cattisFavTavla) 
         {
             Debug.Log("stuff");
-            //dialogueManager.ShowPasswordGuess();
+            dialogueManager.ShowPasswordGuess();
         }
         else if(stringy == "Lås upp mobilen")
         {
