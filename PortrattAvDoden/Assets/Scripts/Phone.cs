@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Phone : MonoBehaviour, IInteractable
+public class Phone : MonoBehaviour, IInteractable, IInventoryItem
 {
-    public GameManager gameManager;
+    //public GameManager gameManager;
 
-    public Interact interactScript;
+    //public Interact interactScript;
 
-    SpriteRenderer spriteRenderer;
+    /*SpriteRenderer spriteRenderer;
 
     public Sprite frontOfPhone;
 
@@ -19,7 +19,7 @@ public class Phone : MonoBehaviour, IInteractable
 
     public string password;
 
-    public DialogueManager dialogueManager;
+    public DialogueManager dialogueManager;*/
 
     public GameObject phoneButton;
 
@@ -66,6 +66,14 @@ public class Phone : MonoBehaviour, IInteractable
 
 
         }*/
+    }
+
+    public void UseItem()
+    {
+        Debug.Log("using " + gameObject.name);
+        //do thing when button pressed in inventory
+
+
     }
 
     public void Interact()

@@ -7,14 +7,15 @@ public class Inventory : MonoBehaviour
 {
     public Animator animator;
 
-    public InventorySlot[] inventorySlots;
+    public GameObject[] inventorySlots;
 
     public GameObject tabletButton;
 
     // Start is called before the first frame update
     void Start()
     {
-        inventorySlots[0].isSlotFilled = true;
+        inventorySlots[0].GetComponent<InventorySlot>().isSlotFilled = true;
+
         Instantiate(tabletButton, inventorySlots[0].transform);
     }
 
@@ -32,7 +33,9 @@ public class Inventory : MonoBehaviour
 
         Instantiate(item, inventorySlots[emptyInventorySlot].transform);
 
-        inventorySlots[emptyInventorySlot].isSlotFilled = true;
+        inventorySlots[emptyInventorySlot].GetComponent<InventorySlot>().isSlotFilled = true;
+
+        //item.GetComponent<Button>().onClick.AddListener(item.GetComponent<IInventoryItem>().UseItem);
 
         animator.SetBool("IsInventoryOpen", true);
     }
@@ -41,7 +44,7 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < inventorySlots.Length; i++)
         {
-            if(inventorySlots[i].isSlotFilled == false)
+            if(inventorySlots[i].GetComponent<InventorySlot>().isSlotFilled == false)
             {
                 return i;
             }

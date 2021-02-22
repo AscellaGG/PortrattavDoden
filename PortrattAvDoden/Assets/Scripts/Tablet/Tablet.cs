@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Tablet : MonoBehaviour
+public class Tablet : MonoBehaviour, IInventoryItem
 {
     public Collider2D mapApp;
 
@@ -19,5 +19,10 @@ public class Tablet : MonoBehaviour
     void Update()
     {
 
+    }
+
+    public void UseItem()
+    {
+        Debug.Log("using " + gameObject.name);
     }
 }
