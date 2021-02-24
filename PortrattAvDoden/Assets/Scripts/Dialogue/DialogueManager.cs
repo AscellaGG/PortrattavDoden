@@ -2,25 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogueManager : MonoBehaviour
 {
     GameManager gameManager;
 
-    public DialogueOptions dialogueOptions;
-
     public Queue<string> sentences;
-
-    public Queue<string> passwordGuess;
 
     public Queue<string> options;
 
-    public Text nameText;
-    public Text dialogueText;
+    public TMP_Text nameText;
+    public TMP_Text dialogueText;
 
     public GameObject dialogueBox;
 
     public bool isDialogueActive;
+
+    public Button[] optionButtons = new Button[3];
 
     // Start is called before the first frame update
     void Start()
@@ -32,13 +31,11 @@ public class DialogueManager : MonoBehaviour
 
         sentences = new Queue<string>();
 
-        passwordGuess = new Queue<string>();
-
         options = new Queue<string>();
 
         dialogueBox.SetActive(false);
 
-        dialogueOptions = this.GetComponent<DialogueOptions>();
+        //dialogueOptions = this.GetComponent<DialogueOptions>();
     }
 
     public void StartDialogue(Dialogue dialogue)
@@ -47,7 +44,19 @@ public class DialogueManager : MonoBehaviour
 
         isDialogueActive = true;
 
-        if(dialogue.hasOptions)
+        for (int i = 0; i < optionButtons.Length; i++)
+        {
+            optionButtons[i].gameObject.SetActive(false);
+        }
+
+        for (int i = 0; i < dialogue.options.Length; i++)
+        {
+            optionButtons[i].gameObject.SetActive(true);
+            optionButtons[i].GetComponentInChildren<TMP_Text>().text = dialogue.options[i].optionText;
+            optionButtons[i].onClick.AddListener(delegate { StartNextDialogue(dialogue.options[i - 1]); });
+        }
+
+        /*if(dialogue.hasOptions)
         {
             foreach(string option in dialogue.options)
             {
@@ -71,9 +80,9 @@ public class DialogueManager : MonoBehaviour
             dialogueOptions.DisableDialogueOptions();
         }*/
 
-        Debug.Log("Starting conversation with " + dialogue.name);
+        Debug.Log("Starting conversation");
 
-        if(dialogue.hasName)
+        if(dialogue.name != null)
         {
             nameText.text = dialogue.name;
         }
@@ -83,29 +92,19 @@ public class DialogueManager : MonoBehaviour
         }
 
         sentences.Clear();
-        passwordGuess.Clear();
 
         foreach(string sentence in dialogue.sentences)
         {
             sentences.Enqueue(sentence);
         }
 
-        foreach(string sentence in dialogue.passwordGuessDialogue)
-        {
-            passwordGuess.Enqueue(sentence);
-        }
-
-        if(this.GetComponent<GameManager>() != null)
-        {
-            gameManager.possiblePasswords.Add(dialogue.passwordGuess);
-        }
-
         DisplayNextSentence();
     }
 
-    void GetNextOption()
+    void StartNextDialogue(Response option)
     {
-
+        Debug.Log("starting next dialogue");
+        StartDialogue(option.secondaryDialogue);
     }
 
     public void DisplayNextSentence()
@@ -121,21 +120,6 @@ public class DialogueManager : MonoBehaviour
         StopAllCoroutines();
         StartCoroutine(TypeSentence(sentence));
     }
-
-    public void ShowPasswordGuess()
-    {
-        if (passwordGuess.Count == 0)
-        {
-            EndDialogue();
-            return;
-        }
-
-        string sentence = passwordGuess.Dequeue();
-
-        StopAllCoroutines();
-        StartCoroutine(TypeSentence(sentence));
-    }
-
 
     IEnumerator TypeSentence (string sentence)
     {

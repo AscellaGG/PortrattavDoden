@@ -2,25 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[System.Serializable]
-public class Dialogue 
+[CreateAssetMenu(fileName ="New Dialogue", menuName ="Dialogue")]
+public class Dialogue : ScriptableObject
 {
-    public bool alivePerson;
 
-    public string name;
+    public new string name;
 
-    public bool hasOptions;
+    public Response[] options;
 
-    public bool hasName;
-
-    public string passwordGuess;
-
-    [TextArea(1, 5)]
-    public string[] options;
-
-    [TextArea(3,10)]
+    [TextArea(1,5)]
     public string[] sentences;
+}
 
-    [TextArea(3,10)]
-    public string[] passwordGuessDialogue;
+[System.Serializable]
+public class Response
+{
+    [TextArea(1, 1)]
+    public string optionText;
+
+    public Dialogue secondaryDialogue;
 }

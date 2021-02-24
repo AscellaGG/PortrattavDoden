@@ -435,9 +435,20 @@ Transform:
   - {fileID: 2128509984}
   - {fileID: 735599318}
   - {fileID: 32254758}
-  m_Father: {fileID: 1345475011}
-  m_RootOrder: 3
+  m_Father: {fileID: 461375199}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &118898200 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8919067317218907364, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+  m_PrefabInstance: {fileID: 2287491064963628861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &147888833
 GameObject:
   m_ObjectHideFlags: 0
@@ -535,17 +546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 1
-    name: "Vaktm\xE4stare"
-    hasOptions: 1
-    hasName: 1
-    passwordGuess: 
-    options:
-    - "Har du nycklar till den l\xE5sta toaletten?"
-    sentences:
-    - "St\xF6r mig inte!"
-    passwordGuessDialogue: []
+  dialogue: {fileID: 0}
 --- !u!114 &147888837
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -783,16 +784,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 0
-    name: Lars Lerin
-    hasOptions: 0
-    hasName: 0
-    passwordGuess: 
-    options: []
-    sentences:
-    - Hur kunde du hitta mig!?
-    passwordGuessDialogue: []
+  dialogue: {fileID: 0}
 --- !u!1001 &281611173
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -996,16 +988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 0
-    name: 
-    hasOptions: 0
-    hasName: 0
-    passwordGuess: 
-    options: []
-    sentences:
-    - "Denna d\xF6rren \xE4r l\xE5st."
-    passwordGuessDialogue: []
+  dialogue: {fileID: 0}
 --- !u!65 &432336989
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1179,7 +1162,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1871506149}
+  - {fileID: 96672848}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1265,17 +1248,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &480194604 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2287491065442619153, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
-  m_PrefabInstance: {fileID: 2287491064963628861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &497427344
 GameObject:
   m_ObjectHideFlags: 0
@@ -2203,7 +2175,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: -1855704389
   m_SortingOrder: 10
   m_TargetDisplay: 0
@@ -2256,6 +2228,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ee932f704330b6d4e98625fc285fa6f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &987578674 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2316621428718565982, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+  m_PrefabInstance: {fileID: 2287491064963628861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1067992369 stripped
@@ -2555,17 +2538,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 1
-    name: Lars Lerin
-    hasOptions: 0
-    hasName: 1
-    passwordGuess: 
-    options: []
-    sentences:
-    - "Jag erk\xE4nner! Det var jag! Jag m\xF6rdade Catti."
-    - Hur hittade du mig?
-    passwordGuessDialogue: []
+  dialogue: {fileID: 0}
 --- !u!1 &1289605638
 GameObject:
   m_ObjectHideFlags: 0
@@ -2704,130 +2677,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 46.121006, y: 38.754105}
   m_EdgeRadius: 0
---- !u!1 &1321385733
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1321385734}
-  - component: {fileID: 1321385737}
-  - component: {fileID: 1321385736}
-  - component: {fileID: 1321385735}
-  m_Layer: 5
-  m_Name: Option1
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &1321385734
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321385733}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2004674561}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -98.63402, y: -53.119}
-  m_SizeDelta: {x: 197.268, y: 17.228764}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1321385735
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321385733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.681, g: 0.681, b: 0.681, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0, g: 0, b: 0, a: 1}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1321385736}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1321385736
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321385733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1321385737
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321385733}
-  m_CullTransparentMesh: 0
 --- !u!1 &1345475010
 GameObject:
   m_ObjectHideFlags: 0
@@ -2858,10 +2707,21 @@ Transform:
   - {fileID: 377911199}
   - {fileID: 1812447107}
   - {fileID: 1210011062}
-  - {fileID: 96672848}
+  - {fileID: 1871506149}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1368833016 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2918878866966402207, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+  m_PrefabInstance: {fileID: 2287491064963628861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1477633731
 GameObject:
   m_ObjectHideFlags: 0
@@ -2956,11 +2816,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a273ed50da859e543b0f13d0c010510f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogueOptions: {fileID: 1477633736}
-  nameText: {fileID: 480194604}
-  dialogueText: {fileID: 1625042149}
+  nameText: {fileID: 118898200}
+  dialogueText: {fileID: 1368833016}
   dialogueBox: {fileID: 2004674560}
   isDialogueActive: 0
+  optionButtons:
+  - {fileID: 1511589622}
+  - {fileID: 2089408187}
+  - {fileID: 987578674}
 --- !u!114 &1477633736
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2973,12 +2836,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 365ef066aadbe43f2aa6094b9d3dc9bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  optionButtons:
-  - {fileID: 1321385735}
-  - {fileID: 1563065725}
-  - {fileID: 1509155311}
-  dialogueManager: {fileID: 1477633735}
-  gameManager: {fileID: 1477633734}
 --- !u!1 &1482950484 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6460731351220584257, guid: aa928df077448354aa575c5b48014ec3, type: 3}
@@ -3130,154 +2987,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 0
-    name: Cattis Mobil
-    hasOptions: 1
-    hasName: 0
-    passwordGuess: 
-    options:
-    - "L\xE5s upp mobilen"
-    sentences:
-    - "Cattis mobil... Det kanske finns n\xE5gon ledtr\xE5d om jag listar ut l\xF6senordet."
-    passwordGuessDialogue:
-    - "\"Ledtr\xE5d ifall du g\xF6mmer l\xF6senordet: Vilken \xE4r min favorittavla?\""
---- !u!1 &1509155309
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1509155310}
-  - component: {fileID: 1509155313}
-  - component: {fileID: 1509155312}
-  - component: {fileID: 1509155311}
-  m_Layer: 5
-  m_Name: Option3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1509155310
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509155309}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2004674561}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 98.634, y: -35.89}
-  m_SizeDelta: {x: 197.26788, y: 17.228764}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1509155311
+  dialogue: {fileID: 0}
+--- !u!114 &1511589622 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 3858961879473518891, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+  m_PrefabInstance: {fileID: 2287491064963628861}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509155309}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.681, g: 0.681, b: 0.681, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1509155312}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1477633735}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1509155312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509155309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1509155313
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1509155309}
-  m_CullTransparentMesh: 0
 --- !u!1 &1516847605
 GameObject:
   m_ObjectHideFlags: 0
@@ -3491,17 +3212,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 0
-    name: 
-    hasOptions: 0
-    hasName: 0
-    passwordGuess: 
-    options: []
-    sentences:
-    - Catti Brandelius...
-    - "M\xF6rdad med en kniv"
-    passwordGuessDialogue: []
+  dialogue: {fileID: 0}
 --- !u!60 &1547005854
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4006,142 +3717,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ac05416aac47e04ca7927b63e017f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!1 &1563065723
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1563065724}
-  - component: {fileID: 1563065727}
-  - component: {fileID: 1563065726}
-  - component: {fileID: 1563065725}
-  m_Layer: 5
-  m_Name: Option2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1563065724
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563065723}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 2004674561}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -98.634, y: -35.89}
-  m_SizeDelta: {x: 197.26788, y: 17.228764}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1563065725
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563065723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.681, g: 0.681, b: 0.681, a: 1}
-    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1563065726}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1477633735}
-        m_TargetAssemblyTypeName: DialogueManager, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &1563065726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563065723}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 12
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 1
-    m_MaxSize: 40
-    m_Alignment: 3
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 
---- !u!222 &1563065727
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563065723}
-  m_CullTransparentMesh: 0
 --- !u!1 &1595285444
 GameObject:
   m_ObjectHideFlags: 0
@@ -4303,17 +3878,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &1625042149 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2287491066587599832, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
-  m_PrefabInstance: {fileID: 2287491064963628861}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!224 &1700599836 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6824164396501786264, guid: aa928df077448354aa575c5b48014ec3, type: 3}
@@ -4453,18 +4017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 1
-    name: Dummy 1
-    hasOptions: 1
-    hasName: 1
-    passwordGuess: MonaLisa
-    options:
-    - Vilken var Cattis favorittavla?
-    sentences:
-    - "Jag \xE4r helt s\xE4ker p\xE5 att det var Lars Lerin!"
-    passwordGuessDialogue:
-    - Jag tror det var Mona Lisa
+  dialogue: {fileID: 11400000, guid: 6f6d40dfc29504f8aae427576e372312, type: 2}
 --- !u!61 &1813526679
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4581,8 +4134,8 @@ Transform:
   - {fileID: 1813526676}
   - {fileID: 2135936060}
   - {fileID: 630380586}
-  m_Father: {fileID: 461375199}
-  m_RootOrder: 0
+  m_Father: {fileID: 1345475011}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2004674560 stripped
 GameObject:
@@ -4594,6 +4147,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2287491066900092732, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
   m_PrefabInstance: {fileID: 2287491064963628861}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2089408187 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1815674171459081521, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+  m_PrefabInstance: {fileID: 2287491064963628861}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2128509983
 GameObject:
   m_ObjectHideFlags: 0
@@ -4717,16 +4281,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 0
-    name: Lars Lerin
-    hasOptions: 0
-    hasName: 0
-    passwordGuess: 
-    options: []
-    sentences:
-    - 'Hej, jag heter Lars. '
-    passwordGuessDialogue: []
+  dialogue: {fileID: 11400000, guid: 355994726268140598ed87c88340fdef, type: 2}
 --- !u!114 &2128509988
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4836,18 +4391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d4b954cfbe491f498e6fe182f853a97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialogue:
-    alivePerson: 1
-    name: Dummy 2
-    hasOptions: 1
-    hasName: 1
-    passwordGuess: 123
-    options:
-    - Vilken var Cattis favorittavla?
-    sentences:
-    - Hmm...
-    passwordGuessDialogue:
-    - Hennes favorittavla var 123
+  dialogue: {fileID: 0}
 --- !u!61 &2135936063
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5052,6 +4596,78 @@ PrefabInstance:
     - target: {fileID: 2287491066900092733, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
       propertyPath: m_Name
       value: Dialogue Box
+      objectReference: {fileID: 0}
+    - target: {fileID: 3189629720498714520, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110829756848576981, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110829756848576981, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -98.627
+      objectReference: {fileID: 0}
+    - target: {fileID: 4110829756848576981, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 50.7653
+      objectReference: {fileID: 0}
+    - target: {fileID: 6007769668003604472, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6812080875107857669, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8036629036405142240, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8266387766753508497, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1477633735}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: DisplayNextSentence
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: DialogueManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8828367944902405578, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919067317218907364, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919067317218907364, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8919067317218907364, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d3c91af9c3ad54425a346453e68139c5, type: 3}
