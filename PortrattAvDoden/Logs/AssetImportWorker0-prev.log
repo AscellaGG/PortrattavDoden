@@ -12,94 +12,524 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56609
+56874
 Successfully changed project path to: /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden
 /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 63.29 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.71 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.4f1 (becced5a802b)
 [Subsystems] Discovering subsystems at path /Applications/Unity/2020.2.4f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Assets
 GfxDevice: creating device client; threaded=0
-2021-02-24 08:21:04.649 Unity[12398:306609] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-02-24 08:21:04.649 Unity[12398:306609] Metal devices available: 1
-2021-02-24 08:21:04.649 Unity[12398:306609] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
-2021-02-24 08:21:04.650 Unity[12398:306609] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-02-24 08:35:02.720 Unity[16627:326192] Color LCD preferred device: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-02-24 08:35:02.720 Unity[16627:326192] Metal devices available: 1
+2021-02-24 08:35:02.720 Unity[16627:326192] 0: Intel(R) Iris(TM) Graphics 6000 (low power)
+2021-02-24 08:35:02.723 Unity[16627:326192] Using device Intel(R) Iris(TM) Graphics 6000 (low power)
 Initializing Metal device caps: Intel(R) Iris(TM) Graphics 6000
 Initialize mono
 Mono path[0] = '/Applications/Unity/2020.2.4f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/2020.2.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/2020.2.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56398
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56627
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/2020.2.4f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/2020.2.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.005431 seconds.
+Registered in 0.006434 seconds.
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.72 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.56 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.614 seconds
+- Completed reload, in  2.506 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002288 seconds.
+Registered in 0.002064 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd6fd8f9e00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file data-0x7f80d2935c00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Assembly-CSharp.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd6fd905800 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x7f80d2940200 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d5088000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.61 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 50.39 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.273 seconds
+- Completed reload, in  1.699 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/2020.2.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1813 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 142.5 MB.
-System memory in use after: 142.4 MB.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 142.1 MB.
+System memory in use after: 142.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2256.
-Total: 4.236567 ms (FindLiveObjects: 0.837411 ms CreateObjectMapping: 0.248658 ms MarkObjects: 2.851079 ms  DeleteObjects: 0.295673 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Scripts/Phone.cs
-  artifactKey: Guid(a655887e9e48b4344b41b8b63ac4e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Phone.cs using Guid(a655887e9e48b4344b41b8b63ac4e048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbea73ceac99e22d8172244bd42bc071') in 3.149875 seconds
-  Import took 3.155451 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2247.
+Total: 5.326170 ms (FindLiveObjects: 0.548789 ms CreateObjectMapping: 0.164394 ms MarkObjects: 4.360885 ms  DeleteObjects: 0.249335 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 42.821638 seconds.
-  path: Assets/Scripts/GameManager.cs
-  artifactKey: Guid(8c56e4f954dba984a8c32ac2b2f2430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameManager.cs using Guid(8c56e4f954dba984a8c32ac2b2f2430c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f92aad16e334f38102d53326dcf1d8d9') in 0.015695 seconds
-  Import took 0.023982 seconds .
+  path: Assets/Scripts/Dialogue/Dialogue.cs
+  artifactKey: Guid(9d3850298a6b4c84d96331f7ccf0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dialogue/Dialogue.cs using Guid(9d3850298a6b4c84d96331f7ccf0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf4e4623e71f8e4c65ae48a954fb3485') in 3.340778 seconds
+  Import took 3.351374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 554.867784 seconds.
+  path: Assets/Scripts/Dialogue/Dialogue.cs
+  artifactKey: Guid(9d3850298a6b4c84d96331f7ccf0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dialogue/Dialogue.cs using Guid(9d3850298a6b4c84d96331f7ccf0b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8627a14bfa091575665214d7fdedbad') in 0.022767 seconds
+  Import took 0.096412 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.976817 seconds.
+  path: Assets/Dialogue
+  artifactKey: Guid(b84344f2a2e164c30aa93c2778684555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue using Guid(b84344f2a2e164c30aa93c2778684555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0889bb13f9849da25c8456b8f2e5c247') in 0.003643 seconds
+  Import took 0.012180 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002730 seconds.
+Registered in 0.001771 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-0x7fd6fd9cea00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Assembly-CSharp.dll
+Symbol file data-0x7f80d7b3a800 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-0x7fd6fa582800 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file data-0x7f80d6a09000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.611 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.7 MB.
+System memory in use after: 146.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2250.
+Total: 4.423269 ms (FindLiveObjects: 0.354469 ms CreateObjectMapping: 0.068378 ms MarkObjects: 3.738871 ms  DeleteObjects: 0.258239 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001777 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d720ee00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d6a28000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 146.9 MB.
+System memory in use after: 146.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2253.
+Total: 5.492049 ms (FindLiveObjects: 1.010737 ms CreateObjectMapping: 0.344648 ms MarkObjects: 3.897083 ms  DeleteObjects: 0.236274 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 233.655482 seconds.
+  path: Assets/Dialogue/test.asset
+  artifactKey: Guid(6f6d40dfc29504f8aae427576e372312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/test.asset using Guid(6f6d40dfc29504f8aae427576e372312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e4a84588016bb7d0af43892fd66adfd') in 0.679113 seconds
+  Import took 0.685024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.150362 seconds.
+  path: Assets/Dialogue/test2.asset
+  artifactKey: Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/test2.asset using Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2eac4a4818bd4df74c98c40a78b76b') in 0.009640 seconds
+  Import took 0.015784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001144 seconds.
+  path: Assets/Dialogue/test2.asset
+  artifactKey: Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/test2.asset using Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2eac4a4818bd4df74c98c40a78b76b') in 0.005811 seconds
+  Import took 0.014247 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000799 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d45a1000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69a2000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.706 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1799 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 151.4 MB.
+System memory in use after: 151.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2256.
+Total: 3.610119 ms (FindLiveObjects: 0.364090 ms CreateObjectMapping: 0.113484 ms MarkObjects: 2.972799 ms  DeleteObjects: 0.155705 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.061229 seconds.
+  path: Assets/Dialogue/test.asset
+  artifactKey: Guid(6f6d40dfc29504f8aae427576e372312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/test.asset using Guid(6f6d40dfc29504f8aae427576e372312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1bd77bf93f7376a9c9e5d8729d931f2') in 0.040072 seconds
+  Import took 0.046675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Dialogue/test2.asset
+  artifactKey: Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/test2.asset using Guid(4d5211234b4ee40668f220937458ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b043340f641349a06eb1d1bf5ffc93') in 0.005783 seconds
+  Import took 0.011584 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002456 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d3a06800 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d6a06000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.01 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.629 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.2 MB.
+System memory in use after: 152.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 7.276670 ms (FindLiveObjects: 0.876036 ms CreateObjectMapping: 0.279956 ms MarkObjects: 4.692567 ms  DeleteObjects: 1.425363 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002229 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d762ea00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d699a000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.4 MB.
+System memory in use after: 152.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2262.
+Total: 4.578398 ms (FindLiveObjects: 0.542827 ms CreateObjectMapping: 0.241940 ms MarkObjects: 3.137986 ms  DeleteObjects: 0.640120 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000850 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d76c5a00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d6a06000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.6 MB.
+System memory in use after: 153.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2265.
+Total: 5.760428 ms (FindLiveObjects: 0.382660 ms CreateObjectMapping: 0.136594 ms MarkObjects: 4.057350 ms  DeleteObjects: 1.177715 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002359 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d778d600 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69eb000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.576 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 153.8 MB.
+System memory in use after: 153.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 4.359323 ms (FindLiveObjects: 0.535338 ms CreateObjectMapping: 0.145200 ms MarkObjects: 3.029655 ms  DeleteObjects: 0.646198 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005533 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d7452600 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69fe000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.505 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.0 MB.
+System memory in use after: 153.4 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 5.506940 ms (FindLiveObjects: 0.624271 ms CreateObjectMapping: 0.177835 ms MarkObjects: 3.675277 ms  DeleteObjects: 1.009457 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000868 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d7e02400 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69eb000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.2 MB.
+System memory in use after: 153.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2274.
+Total: 3.520839 ms (FindLiveObjects: 0.317730 ms CreateObjectMapping: 0.068966 ms MarkObjects: 2.468775 ms  DeleteObjects: 0.663385 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000942 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d33aee00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69fe000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.425 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.4 MB.
+System memory in use after: 153.8 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 5.156656 ms (FindLiveObjects: 0.442138 ms CreateObjectMapping: 0.137023 ms MarkObjects: 3.671664 ms  DeleteObjects: 0.902040 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003520 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d67c7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69e4000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.6 MB.
+System memory in use after: 154.0 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 5.996934 ms (FindLiveObjects: 0.560902 ms CreateObjectMapping: 0.193675 ms MarkObjects: 4.497473 ms  DeleteObjects: 0.742120 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1030.497277 seconds.
+  path: Assets/Dialogue/Lars.asset
+  artifactKey: Guid(355994726268140598ed87c88340fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/Lars.asset using Guid(355994726268140598ed87c88340fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27c64e19e49e0a283747bf33050ca12') in 0.052013 seconds
+  Import took 0.057018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001024 seconds.
+  path: Assets/Dialogue/Lars.asset
+  artifactKey: Guid(355994726268140598ed87c88340fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Dialogue/Lars.asset using Guid(355994726268140598ed87c88340fdef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27c64e19e49e0a283747bf33050ca12') in 0.008025 seconds
+  Import took 0.013653 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000718 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d7542c00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69f7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.804 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 154.8 MB.
+System memory in use after: 154.2 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 4.091476 ms (FindLiveObjects: 0.300396 ms CreateObjectMapping: 0.068622 ms MarkObjects: 3.017273 ms  DeleteObjects: 0.703087 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001864 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d3424e00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69e4000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.555 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.0 MB.
+System memory in use after: 154.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 4.678100 ms (FindLiveObjects: 0.425008 ms CreateObjectMapping: 0.141880 ms MarkObjects: 3.319899 ms  DeleteObjects: 0.786018 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d7b3dc00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69f7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
@@ -109,14 +539,214 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.267 seconds
+- Completed reload, in  1.469 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1808 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 147.0 MB.
-System memory in use after: 147.0 MB.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.2 MB.
+System memory in use after: 154.5 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
-Total: 3.287419 ms (FindLiveObjects: 0.294607 ms CreateObjectMapping: 0.075142 ms MarkObjects: 2.782177 ms  DeleteObjects: 0.132209 ms)
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 5.490955 ms (FindLiveObjects: 0.472451 ms CreateObjectMapping: 0.140142 ms MarkObjects: 3.954116 ms  DeleteObjects: 0.918905 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002469 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d2d1e400 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69e4000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.439 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.3 MB.
+System memory in use after: 154.7 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 3.718734 ms (FindLiveObjects: 0.370488 ms CreateObjectMapping: 0.149158 ms MarkObjects: 2.683573 ms  DeleteObjects: 0.513332 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000720 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d6335400 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69f7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.366 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.5 MB.
+System memory in use after: 154.9 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 4.136015 ms (FindLiveObjects: 0.582605 ms CreateObjectMapping: 0.164017 ms MarkObjects: 2.748873 ms  DeleteObjects: 0.637503 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002693 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d4796800 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69e4000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.725 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.7 MB.
+System memory in use after: 155.1 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 5.939085 ms (FindLiveObjects: 0.698875 ms CreateObjectMapping: 0.308152 ms MarkObjects: 3.772254 ms  DeleteObjects: 1.156411 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000824 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d2ef7400 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69f7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.537 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1812 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 155.9 MB.
+System memory in use after: 155.3 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 3.209901 ms (FindLiveObjects: 0.428814 ms CreateObjectMapping: 0.183398 ms MarkObjects: 2.025861 ms  DeleteObjects: 0.569795 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 305.896340 seconds.
+  path: Assets/Scripts/Dialogue/DialogueOptions.cs
+  artifactKey: Guid(365ef066aadbe43f2aa6094b9d3dc9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Dialogue/DialogueOptions.cs using Guid(365ef066aadbe43f2aa6094b9d3dc9bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe5f38e6a3f283f67fdc5a94bfc39f02') in 0.018734 seconds
+  Import took 0.026411 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003167 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d386f400 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69e4000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.1 MB.
+System memory in use after: 155.5 MB.
+
+Unloading 26 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 3.343045 ms (FindLiveObjects: 0.447342 ms CreateObjectMapping: 0.192132 ms MarkObjects: 2.212407 ms  DeleteObjects: 0.489105 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002726 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0x7f80d76e9c00 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0x7f80d69f7000 doesn't match image /Users/o.schiff/Documents/GitHub/PortrattavDoden/PortrattAvDoden/Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.518 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 156.3 MB.
+System memory in use after: 155.6 MB.
+
+Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 2306.
+Total: 5.905047 ms (FindLiveObjects: 0.779387 ms CreateObjectMapping: 0.246492 ms MarkObjects: 3.928466 ms  DeleteObjects: 0.947479 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 128.097102 seconds.
+  path: Assets/Scripts/IInteractable.cs
+  artifactKey: Guid(6b935d1cdd3739e45b13a619942d8b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/IInteractable.cs using Guid(6b935d1cdd3739e45b13a619942d8b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ae4bf2f4c37efdf601b68d6d8b49d6') in 0.008098 seconds
+  Import took 0.017288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.313050 seconds.
+  path: Assets/Scripts/Interact.cs
+  artifactKey: Guid(c5d9ff69d4ecbab41bcd526f0a2d84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interact.cs using Guid(c5d9ff69d4ecbab41bcd526f0a2d84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4189fe534b61e07099782e14edbd6202') in 0.003062 seconds
+  Import took 0.007782 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004190 seconds.
+  path: Assets/Scripts/Interact.cs
+  artifactKey: Guid(c5d9ff69d4ecbab41bcd526f0a2d84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Interact.cs using Guid(c5d9ff69d4ecbab41bcd526f0a2d84b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4189fe534b61e07099782e14edbd6202') in 0.003408 seconds
+  Import took 0.015008 seconds .
 
