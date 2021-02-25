@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Phone : MonoBehaviour, IInteractable
+public class Phone : MonoBehaviour, IInteractable, IInventoryItem
 {
-    public GameManager gameManager;
+    /*public GameManager gameManager;
 
     public Interact interactScript;
 
@@ -19,16 +19,18 @@ public class Phone : MonoBehaviour, IInteractable
 
     public string password;
 
-    public DialogueManager dialogueManager;
+    public DialogueManager dialogueManager;*/
+
+    public GameObject phoneButton;
 
     // Start is called before the first frame update
     void Start()
     {
-        spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
+        /*spriteRenderer = gameObject.GetComponent<SpriteRenderer>();
 
         frontFacing = false;
 
-        dialogueTrigger = this.GetComponent<DialogueTrigger>();
+        dialogueTrigger = this.GetComponent<DialogueTrigger>();*/
 
         //dialogueTrigger.dialogue.hasOptions = false;
     }
@@ -66,9 +68,18 @@ public class Phone : MonoBehaviour, IInteractable
         }*/
     }
 
+    public void UseItem()
+    {
+        Debug.Log("using" + gameObject.name);
+    }
+
     public void Interact()
     {
-        if (this.GetComponent<DialogueTrigger>() != null)
+        FindObjectOfType<Inventory>().AddToInventory(phoneButton);
+
+        Destroy(this.gameObject);
+
+        /*if (this.GetComponent<DialogueTrigger>() != null)
         {
             this.GetComponent<DialogueTrigger>().TriggerDialogue();
         }
@@ -77,7 +88,7 @@ public class Phone : MonoBehaviour, IInteractable
         {
             interactScript.Zoom(5);
         }
-        /*else if(interactScript.largerImage && frontFacing)
+        else if(interactScript.largerImage && frontFacing)
         {
             //open options for password or smth
             dialogueTrigger.dialogue.hasOptions = true;
@@ -89,13 +100,13 @@ public class Phone : MonoBehaviour, IInteractable
 
             //dialogueManager.ShowPasswordGuess();    
             dialogueTrigger.TriggerDialogue();
-        }*/
+        }
         else if (interactScript.largerImage)
         {
             Debug.Log("turn phone around");
             spriteRenderer.sprite = frontOfPhone;
             transform.rotation = new Quaternion(0, 0, 0, 0);
             frontFacing = true;
-        }
+        }*/
     }
 }

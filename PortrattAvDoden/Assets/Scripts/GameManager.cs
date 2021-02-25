@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    public GameObject[] rooms = new GameObject[5];
+    public GameObject[] rooms;
 
     public Text roomText;
 
@@ -93,11 +93,16 @@ public class GameManager : MonoBehaviour
         rooms[roomNr].transform.SetParent(levelParent.transform);
         currentRoom = levelParent.transform.GetChild(0).gameObject;
 
-        if(roomNr > 0)
+
+        if (roomNr == 0)
+        {
+            leftArrow.SetActive(false);
+        }
+        else if (roomNr > 0)
         {
             leftArrow.SetActive(true);
         }
-        if (roomNr == 4)
+        if (roomNr == rooms.Length-1)
         {
             rightArrow.SetActive(false);
         }
@@ -110,7 +115,11 @@ public class GameManager : MonoBehaviour
         rooms[roomNr].transform.SetParent(levelParent.transform);
         currentRoom = levelParent.transform.GetChild(0).gameObject;
 
-        if (roomNr < 4)
+        if (roomNr == 0)
+        {
+            leftArrow.SetActive(false);
+        }
+        if (roomNr < rooms.Length-1)
         {
             rightArrow.SetActive(true);
         }

@@ -19,5 +19,10 @@ public class InteractableObject : MonoBehaviour, IInteractable
     public void Interact()
     {
         FindObjectOfType<Interact>().Zoom(2);
+
+        if(GetComponent<DialogueTrigger>() != null)
+        {
+            GetComponent<DialogueTrigger>().TriggerDialogue();
+        }
     }
 }

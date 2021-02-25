@@ -14,9 +14,9 @@ public class Inventory : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        inventorySlots[0].GetComponent<InventorySlot>().isSlotFilled = true;
+        /*inventorySlots[0].GetComponent<InventorySlot>().isSlotFilled = true;
 
-        Instantiate(tabletButton, inventorySlots[0].transform);
+        Instantiate(tabletButton, inventorySlots[0].transform);*/
     }
 
     // Update is called once per frame

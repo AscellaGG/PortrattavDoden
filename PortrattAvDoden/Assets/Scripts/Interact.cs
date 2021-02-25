@@ -45,6 +45,7 @@ public class Interact : MonoBehaviour
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
             if (hit.collider != null)
             {
+                Debug.Log("1"); 
                 if (!largerImage)
                 {
                     zoomObject = hit.collider.gameObject;
