@@ -43,6 +43,8 @@ public class Interact : MonoBehaviour
             Vector2 mousePos2D = new Vector2(mousePos.x, mousePos.y);
 
             RaycastHit2D hit = Physics2D.Raycast(mousePos2D, Vector2.zero);
+
+            Debug.Log("0");
             if (hit.collider != null)
             {
                 Debug.Log("1"); 
